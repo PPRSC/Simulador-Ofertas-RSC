@@ -1,0 +1,28 @@
+regra logica de filtro
+
+sim/sim > quant linhas > valor que o usuario paga
+
+
+metodo filtro {
+    metodo filtro 1()
+        metodo filtro 2()
+            metrodo filtro 3
+}
+
+
+opção4 
+
+internetmovel = opcao2
+
+internetbandalarga > opcao2
+
+
+
+opção 5 
+
+internetmovel = opcao3
+
+internetbandalarga < opcao3
+
+
+

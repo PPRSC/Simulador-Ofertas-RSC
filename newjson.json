@@ -1,0 +1,312 @@
+{
+    "combinacoes": {
+        "faixa0": {
+            "id": 1,
+            "internetBandaLarga": "350",
+            "vlr_bl": 79.9,
+            "internetMovel": "20",
+            "linhas": 1,
+            "vlr_movel": 54.9,
+            "vlr_movel_port": 54.9,
+            "vlr_total": "134.90",
+            "vlr_total_portin": "134.90"
+        },
+        "faixa1": {
+            "id": 2,
+            "internetBandaLarga": "350",
+            "vlr_bl": 79.9,
+            "internetMovel": "50",
+            "linhas": 2,
+            "vlr_movel": 119.9,
+            "vlr_movel_port": 59.9,
+            "vlr_total": "199.90",
+            "vlr_total_portin": "139.90"
+        },
+        "faixa2": {
+            "id": 3,
+            "internetBandaLarga": "500",
+            "vlr_bl": 89.9,
+            "internetMovel": "20",
+            "linhas": 1,
+            "vlr_movel": 54.9,
+            "vlr_movel_port": 54.9,
+            "vlr_total": "144.90",
+            "vlr_total_portin": "144.90"
+        },
+        "faixa3": {
+            "id": 4,
+            "internetBandaLarga": "350",
+            "vlr_bl": 79.9,
+            "internetMovel": "25",
+            "linhas": 0,
+            "vlr_movel": 64.9,
+            "vlr_movel_port": 64.9,
+            "vlr_total": "144.90",
+            "vlr_total_portin": "144,90"
+        },
+        "faixa4": {
+            "id": 5,
+            "internetBandaLarga": "500",
+            "vlr_bl": 89.9,
+            "internetMovel": "50",
+            "linhas": 2,
+            "vlr_movel": 119.9,
+            "vlr_movel_port": 59.9,
+            "vlr_total": "209.90",
+            "vlr_total_portin": "149.90"
+        },
+        "faixa5": {
+            "id": 6,
+            "internetBandaLarga": "500",
+            "vlr_bl": 89.9,
+            "internetMovel": "25",
+            "linhas": 1,
+            "vlr_movel": 64.9,
+            "vlr_movel_port": 64.9,
+            "vlr_total": "154.90",
+            "vlr_total_portin": "154.90"
+        },
+        "faixa6": {
+            "id": 7,
+            "internetBandaLarga": "750",
+            "vlr_bl": 129.9,
+            "internetMovel": "20",
+            "linhas": 1,
+            "vlr_movel": 54.9,
+            "vlr_movel_port": 54.9,
+            "vlr_total": "184.90",
+            "vlr_total_portin": "184.90"
+        },
+        "faixa7": {
+            "id": 8,
+            "internetBandaLarga": "750",
+            "vlr_bl": 129.9,
+            "internetMovel": "50",
+            "linhas": 2,
+            "vlr_movel": 119.9,
+            "vlr_movel_port": 59.9,
+            "vlr_total": "249.90",
+            "vlr_total_portin": "189.90"
+        },
+        "faixa8": {
+            "id": 9,
+            "internetBandaLarga": "750",
+            "vlr_bl": 129.9,
+            "internetMovel": "25",
+            "linhas": 1,
+            "vlr_movel": 64.9,
+            "vlr_movel_port": 64.9,
+            "vlr_total": "194.90",
+            "vlr_total_portin": "194.90"
+        },
+        "faixa9": {
+            "id": 10,
+            "internetBandaLarga": "350",
+            "vlr_bl": 79.9,
+            "internetMovel": "100",
+            "linhas": 3,
+            "vlr_movel": 119.9,
+            "vlr_movel_port": 79.9,
+            "vlr_total": "199.90",
+            "vlr_total_portin": "159.90"
+        },
+        "faixa10": {
+            "id": 11,
+            "internetBandaLarga": "500",
+            "vlr_bl": 89.9,
+            "internetMovel": "100",
+            "linhas": 3,
+            "vlr_movel": 119.9,
+            "vlr_movel_port": 79.9,
+            "vlr_total": "209.90",
+            "vlr_total_portin": "169.90"
+        },
+        "faixa11": {
+            "id": 12,
+            "internetBandaLarga": "750",
+            "vlr_bl": 129.9,
+            "internetMovel": "100",
+            "linhas": 3,
+            "vlr_movel": 119.9,
+            "vlr_movel_port": 79.9,
+            "vlr_total": "249.90",
+            "vlr_total_portin": "209.90"
+        },
+        "faixa12": {
+            "id": 13,
+            "internetBandaLarga": "350",
+            "vlr_bl": 79.9,
+            "internetMovel": "200",
+            "linhas": 6,
+            "vlr_movel": "169.90",
+            "vlr_movel_port": "139.90",
+            "vlr_total": "249.90",
+            "vlr_total_portin": "219.90"
+        },
+        "faixa13": {
+            "id": 14,
+            "internetBandaLarga": "500",
+            "vlr_bl": 89.9,
+            "internetMovel": "200",
+            "linhas": 6,
+            "vlr_movel": "169.90",
+            "vlr_movel_port": "139.90",
+            "vlr_total": "259.90",
+            "vlr_total_portin": "229.90"
+        },
+        "faixa14": {
+            "id": 15,
+            "internetBandaLarga": "750",
+            "vlr_bl": 129.9,
+            "internetMovel": "200",
+            "linhas": 6,
+            "vlr_movel": "169.90",
+            "vlr_movel_port": "139.90",
+            "vlr_total": "299.90",
+            "vlr_total_portin": "269.90"
+        },
+        "faixa15": {
+            "id": 16,
+            "internetBandaLarga": "350",
+            "vlr_bl": 79.9,
+            "internetMovel": "300",
+            "linhas": 6,
+            "vlr_movel": 219.9,
+            "vlr_movel_port": "189.90",
+            "vlr_total": "299.90",
+            "vlr_total_portin": "269.90"
+        },
+        "faixa16": {
+            "id": 17,
+            "internetBandaLarga": "500",
+            "vlr_bl": 89.9,
+            "internetMovel": "300",
+            "linhas": 6,
+            "vlr_movel": 219.9,
+            "vlr_movel_port": "189.90",
+            "vlr_total": "309.90",
+            "vlr_total_portin": "279.90"
+        },
+        "faixa17": {
+            "id": 18,
+            "internetBandaLarga": "750",
+            "vlr_bl": 129.9,
+            "internetMovel": "219",
+            "linhas": 6,
+            "vlr_movel": 219.9,
+            "vlr_movel_port": "189.90",
+            "vlr_total": "349.90",
+            "vlr_total_portin": "319.9"
+        },
+        "faixa18": {
+            "id": 19,
+            "internetBandaLarga": "1",
+            "vlr_bl": 299.90,
+            "internetMovel": "20",
+            "linhas": 1,
+            "vlr_movel": 54.9,
+            "vlr_movel_port": 54.9,
+            "vlr_total": "354.90",
+            "vlr_total_portin": "354.90"
+        },
+        "faixa19": {
+            "id": 20,
+            "internetBandaLarga": "1",
+            "vlr_bl": 299.9,
+            "internetMovel": "600",
+            "linhas": 6,
+            "vlr_movel": 319.9,
+            "vlr_movel_port": 319.9,
+            "vlr_total": "619.90",
+            "vlr_total_portin": "619.90"
+        },
+        "faixa20": {
+            "id": 21,
+            "internetBandaLarga": "1",
+            "vlr_bl": 299.9,
+            "internetMovel": "25",
+            "linhas": 1,
+            "vlr_movel": 64.9,
+            "vlr_movel_port": 64.9,
+            "vlr_total": "364.90",
+            "vlr_total_portin": "364.90"
+        },
+        "faixa21": {
+            "id": 22,
+            "internetBandaLarga": "350",
+            "vlr_bl": 79.9,
+            "internetMovel": "600",
+            "linhas": 6,
+            "vlr_movel": 319.9,
+            "vlr_movel_port": 319.9,
+            "vlr_total": "399.90",
+            "vlr_total_portin": "399.90"
+        },
+        "faixa22": {
+            "id": 23,
+            "internetBandaLarga": "500",
+            "vlr_bl": 89.9,
+            "internetMovel": "600",
+            "linhas": 6,
+            "vlr_movel": 319.9,
+            "vlr_movel_port": 319.9,
+            "vlr_total": "409.90",
+            "vlr_total_portin": "409.90"
+        },
+        "faixa23": {
+            "id": 24,
+            "internetBandaLarga": "1",
+            "vlr_bl": 299.9,
+            "internetMovel": "100",
+            "linhas": 3,
+            "vlr_movel": 119.9,
+            "vlr_movel_port": 79.9,
+            "vlr_total": "419.90",
+            "vlr_total_portin": "379.90"
+        },
+        "faixa24": {
+            "id": 25,
+            "internetBandaLarga": "750",
+            "vlr_bl": 129.9,
+            "internetMovel": "600",
+            "linhas": 6,
+            "vlr_movel": 319.9,
+            "vlr_movel_port": 319.9,
+            "vlr_total": "449.90",
+            "vlr_total_portin": "449.90"
+        },
+        "faixa25": {
+            "id": 26,
+            "internetBandaLarga": "1",
+            "vlr_bl": 299.9,
+            "internetMovel": "200",
+            "linhas": 6,
+            "vlr_movel": 169.9,
+            "vlr_movel_port": 139.90,
+            "vlr_total": "469.90",
+            "vlr_total_portin": "439.90"
+        },
+        "faixa26": {
+            "id": 27,
+            "internetBandaLarga": "1",
+            "vlr_bl": 299.9,
+            "internetMovel": "300",
+            "linhas": 6,
+            "vlr_movel": 219.9,
+            "vlr_movel_port": 189.90,
+            "vlr_total": "519.90",
+            "vlr_total_portin": "489.90"
+        },
+        "faixa27": {
+            "id": 28,
+            "internetBandaLarga": "1",
+            "vlr_bl": 299.9,
+            "internetMovel": "600",
+            "linhas": 6,
+            "vlr_movel": 319.9,
+            "vlr_movel_port": 319.9,
+            "vlr_total": "619.90",
+            "vlr_total_portin": "619.90"
+        }
+    }
+}

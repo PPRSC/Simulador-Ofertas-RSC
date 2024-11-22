@@ -1,0 +1,369 @@
+#themeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #e60000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+}
+
+/* Tema escuro */
+body.dark-mode {
+    background-color: #222222;
+    color: #e0e0e0;
+}
+
+.card.dark-mode {
+    background-color: #ffffff;
+    border-color: #ff0000;
+}
+
+button.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+button.dark-mode:hover {
+    background-color: #444;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fundo branco, comum em designs da Claro */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    font-weight: bold;
+    color: #e60000; /* Vermelho Claro */
+    margin-right: 10px;
+}
+
+input[type="number"], select, input[type="checkbox"] {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #e60000; /* Vermelho Claro */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #b30000; /* Vermelho mais escuro no hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.columName {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e60000; /* Borda vermelha */
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #ffffff; /* Fundo vermelho claro no hover */
+    border: 3px solid #e60000; /* Borda vermelha */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card h3 {
+    color: #e90000 !important;
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+.card a{
+    color: #ffc118;
+}
+
+.card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.card strong {
+    color: #333;
+    font-size: 150%;
+}
+
+.vlrMegas{
+    color: #e90000 !important;
+    font-weight: bold; 
+    font-size: 50px;
+}
+
+.vlrGigas{
+    color: #e90000 !important;
+    font-weight: bold; 
+    font-size: 50px;
+}
+
+.fibra{
+    color: #e90000 !important;
+    font-weight: bold; 
+}
+
+.hidden {
+    display: none;
+}
+
+.separator {
+    width: 80%;           /* Ajuste a largura conforme necessário */
+    margin: 10px auto;    /* Espaçamento acima e abaixo */
+    border: 0;
+    border-top: 1px solid #ccc;  /* Define a linha como uma borda superior */
+    opacity: 0.6;         /* Translucidez para suavizar a aparência */
+}
+
+.highlighted-value {
+    color: rgb(255, 146, 21); /* Define a cor do texto como amarelo */
+    font-weight: bold;
+    font-size: 200%;
+}
+
+/* Estilo do Menu Lateral */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #DCDCDC;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    transition: transform 0.3s ease; /* Animação para mostrar e ocultar */
+}
+
+.sidebar.hidden {
+    transform: translateX(-250px); /* Esconde o menu fora da tela */
+}
+
+/* Botão de alternância */
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #e60000;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Fica acima de outros elementos */
+}
+
+.sidebar h2 {
+    color: #e60000; /* Vermelho Claro */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.sidebar label {
+    color: #272727;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sidebar input[type="number"]{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+.sidebar select{
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+.sidebar input[type="checkbox"]{
+    border-radius: 5px;
+    border: none;
+}
+.sidebar button {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+.sidebar button {
+    background-color: #e60000;
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar button:hover {
+    background-color: #6e6e6e;
+}
+
+
+/* Ajuste para o conteúdo principal */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+    display: none;
+}
+
+.main-content.expanded {
+    margin-left: 20px; /* Ajuste para expandir conteúdo quando a barra lateral está oculta */
+}
+
+.txtObs{
+    display: block; 
+}
+
+input:disabled{
+    background-color: #f5f5f5; /* Cor de fundo do input */
+    color: #000000; /* Cor do texto */
+    border: 1px solid #ccc; /* Cor da borda */
+    cursor: not-allowed; /* Indicativo visual de que está desativado */
+}
+
+input {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding-left: 5px; /* Espaço extra para melhorar a legibilidade */
+  }
+
+  /* Remove as setas (controle de incremento) no input */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Remove as setas no Chrome, Safari */
+  margin: 0; /* Remove margens extras */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Remove as setas no Firefox */
+  appearance: none; /* Para navegadores modernos */
+}
+
+/* Contêiner para o input */
+.input-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilo do símbolo "R$" */
+  .currency-symbol {
+    position: absolute;
+    left: 10px;
+    top: 47%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 16px;
+  }
+  
+/* Estilo do input */
+#vlrmovel {
+    padding-left: 30px; /* Espaço para o "R$" */
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  #vlrmovel:focus {
+    border-color: #007bff;
+  }
+
+/* Estilo do input */
+#vlrbl {
+    padding-left: 30px; /* Espaço para o "R$" */
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  #vlrbl:focus {
+    border-color: #007bff;
+  }
+
+  .msg {
+    position: fixed;
+    top: 20px; /* A distância do topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Compensa o deslocamento para a esquerda */
+    background-color: #e60000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+}
+
